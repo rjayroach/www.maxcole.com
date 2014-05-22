@@ -1,6 +1,6 @@
 # unicorn/production.rb
-APP_NAME = 'www.maxcole.com'
-SOCKET_NAME = "/tmp/unicorn.#{APP_NAME}_production.sock"
+APP_NAME = 'www_maxcole_com'
+SOCKET_NAME = "/tmp/unicorn.#{APP_NAME}.sock"
 
 APP_PATH = File.expand_path(File.dirname(File.dirname(File.dirname(__FILE__))))
 
