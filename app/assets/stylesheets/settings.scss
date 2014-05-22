@@ -10,15 +10,58 @@
 //  background-color: #B77A3B;
 //}
 
+#branding {
+  height: 700px;
+}
+
+#brand_content h1 {
+  color: white;
+}
+
+#brand_content h2 {
+  color: white;
+}
+
+#brand_content p {
+  color: white;
+}
+
+
+.branding {
+  background-image: image-url('landing_stock_2400x1600.jpg')
+}
+
 .max-footer {
   background-color: grey;
   height: 120px;
 }
 
+.max-over {
+background-color: rgba(50, 50, 50, 0.6); /* Color white with alpha 0.9*/
+height: 40px;
+}
+
 .max-light {
-  background-color: #B77A3B;
+//  background-color: #B77A3B;
+  //background-color: #9A2020; // pivotal red
+//  background-color: #389EDB; // blue
+  background-image: linear-gradient(top, #B07832, #BF8949);
+  //background-image: -webkit-linear-gradient(top, #B07832, #BF8949);
+  //background-image: -webkit-linear-gradient(top, #102868, #405898);
   height: 220px;
 }
+
+/*
+#B07832; // yellow dark
+#BF8949; // yellow lighter
+
+
+  background-image: -webkit-linear-gradient(top, #405898, #102868);
+  background-image: -moz-linear-gradient(top, #405898, #102868);
+  background-image: -o-linear-gradient(top, #405898, #102868);
+  border-bottom: 1px solid #001858;
+}
+*/
 
 .max-light h1 {
   color: white;

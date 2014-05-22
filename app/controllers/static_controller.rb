@@ -6,6 +6,7 @@ class StaticController < ApplicationController
     render 'consulting'
   end
   def home
+    @resource = ContactForm.new
     render 'home'
   end
   def about

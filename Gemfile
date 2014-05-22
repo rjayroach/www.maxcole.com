@@ -1,7 +1,7 @@
-source 'https://rubygems.org'
+source ENV['GEM_SERVER_CACHE'] || 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.3'
+gem 'rails', '4.1.1'
 
 gem 'foundation-rails'
 gem 'mail_form'
@@ -39,10 +39,13 @@ end
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Use Capistrano for deployment
-# gem 'capistrano', group: :development
+gem 'capistrano', '= 3.2.1', group: :development
+
+# Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
+gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
